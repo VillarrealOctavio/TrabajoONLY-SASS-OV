@@ -1,2 +1,6 @@
 .gridContainer {
-  display: grid; }
+  display: grid;
+  grid-template-areas: "nav cabeza" "nav cuerpo" "nav pie"; }
+
+.encabezado {
+  grid-area: cabeza; }

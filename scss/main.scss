@@ -1,3 +1,15 @@
+@media (min-width : 769px)
 .gridContainer {
 	display:grid;
-}
+	grid-template-areas: "nav cabeza" "nav cuerpo" "nav pie" }
+
+
+@media (max-width : 768px)
+.gridContainer {
+	display:grid;
+	grid-template-areas: "cabeza" "nav" "cuerpo" "pie" }
+
+	
+@import "header";
+@import "nav";
+@import "footer";
