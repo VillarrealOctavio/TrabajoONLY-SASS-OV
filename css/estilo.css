@@ -18,5 +18,8 @@
 .nav {
   grid-area: nav; }
 
+.cuerpo {
+  grid-area: cuerpo; }
+
 .pie {
   grid-area: pie; }
