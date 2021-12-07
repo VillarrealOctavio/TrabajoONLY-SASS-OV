@@ -14,3 +14,9 @@
 
 .encabezado {
   grid-area: cabeza; }
+
+.nav {
+  grid-area: nav; }
+
+.pie {
+  grid-area: pie; }
