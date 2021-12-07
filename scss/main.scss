@@ -1,15 +1,23 @@
-@media (min-width : 769px)
+@media (min-width : 769px) {
 .gridContainer {
 	display:grid;
-	grid-template-areas: "nav cabeza" "nav cuerpo" "nav pie" }
+	grid-template-areas: "nav cabeza" "nav cuerpo" "nav pie" ;
+	grid-template-rows: 20% 60% 20% ;
+	grid-template-columns: 20% 80% ;
+}
+}
 
 
-@media (max-width : 768px)
+@media (max-width : 768px)	{
 .gridContainer {
 	display:grid;
-	grid-template-areas: "cabeza" "nav" "cuerpo" "pie" }
+	grid-template-areas: "cabeza" "nav" "cuerpo" "pie" ;
+	grid-template-columns: 100% ;
+	grid-template-rows: 10% 10% 60% 20% ;
+} 
+}
 
-	
+
 @import "header";
 @import "nav";
 @import "footer";
