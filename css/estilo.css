@@ -13,7 +13,8 @@
     grid-template-rows: 10% 10% 60% 20%; } }
 
 .encabezado {
-  grid-area: cabeza; }
+  grid-area: cabeza;
+  background-color: lightblue; }
 
 .nav {
   grid-area: nav; }
