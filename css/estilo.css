@@ -14,7 +14,9 @@
 
 .encabezado {
   grid-area: cabeza;
-  background-color: lightblue; }
+  background-color: lightblue;
+  display: flex;
+  justify-content: center; }
 
 .nav {
   grid-area: nav; }
@@ -23,4 +25,12 @@
   grid-area: cuerpo; }
 
 .pie {
-  grid-area: pie; }
+  grid-area: pie;
+  display: flex;
+  justify-content: space-between; }
+  .pie ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 800px;
+    align-items: center; }
